@@ -173,6 +173,7 @@ h2{
 .footer-footer{
 	padding-top: 102px;
 	display: flex;
+	padding-bottom: 50px;
 }
 .copyrate{
 	font-size: 12px;
