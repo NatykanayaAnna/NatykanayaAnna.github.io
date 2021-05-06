@@ -1,0 +1,127 @@
+body{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #D9D0DE;
+    margin: 0;
+    padding: 0;
+    background: #FF9000;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+h1{
+    font-weight: 400;
+    font-size: 64px;
+}
+h2{
+    font-size: 36px;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #2C1A1D;
+
+}
+.header{
+    padding-top: 50px;
+}
+.logo-header, .naruto-header{
+    margin: 0 auto;
+    display: block;;
+}
+.history{
+    background: #2C1A1D;
+    padding-top: 132px;
+    padding-bottom: 70px;
+}
+.about-childhood{
+    display: flex;
+justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+.dream{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.hokage{
+    margin-right: 146px;
+}
+.footer{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.copyright{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2C1A1D;
+}
+/* 992px - 1200px */
+@media  screen and (max-width: 1200px){
+    .container{
+        width: 960px;
+    }
+    .naruto-friend{
+        width: 960px;
+    }
+}
+/* 768px - 992px */
+@media  screen and (max-width: 992px){
+     .container{
+        width: 720px;
+    }
+    .history{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .about-childhood{
+        display: block;
+    }
+    .naruto-friend{
+        width: 720px;
+    }
+    .sad-naruto{
+        margin: 0 auto;
+        display: block;
+    }
+    .dream{
+        display: block;
+    }
+    .hokage{
+        margin: 0 auto;
+        display: block;
+    }
+}
+/* 576px - 768px */
+@media  screen and (max-width: 768px){
+    .container{
+        width: 540px;
+    }
+    .naruto-header{
+        width: 540px;
+    }
+     .naruto-friend{
+        width: 540px;
+    }
+}
+/* 320px - 576px */
+@media  screen and (max-width: 576px){
+    .container{
+        width: 90%;
+    }
+    .hokage{
+        width: 90%;
+    }
+     .naruto-friend{
+        width: 90%;
+    }
+    .naruto-header{
+        width: 90%;
+    }
+}
