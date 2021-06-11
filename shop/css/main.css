@@ -97,7 +97,6 @@ li{
 	justify-content: space-between;
 	margin-top: 103px;
 }
-.about-header{margin-left: 95px;}
 .overhead{
 	text-align: center;
 }
@@ -302,7 +301,6 @@ li{
 	.logo2{
 	  margin-left: 0;
 	}
-	.about-header{margin-left: 0px;}
 }
 /* 768px - 992px */
 @media  screen and (max-width: 992px){
